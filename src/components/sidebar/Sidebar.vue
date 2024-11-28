@@ -22,11 +22,10 @@ export default {
     </h1>
 
     <SidebarLink to="/" icon="fas fa-home">Home</SidebarLink>
-    <SidebarLink to="/dashboard" icon="fas fa-columns">Dashboard</SidebarLink>
-    <SidebarLink to="/analytics" icon="fas fa-chart-bar">Analytics</SidebarLink>
-    <SidebarLink to="/friends" icon="fas fa-users">Friends</SidebarLink>
-    <SidebarLink to="/image" icon="fas fa-image">Images</SidebarLink>
-
+    <SidebarLink to="/reservations" icon="fas fa-columns">Reservations</SidebarLink>
+    <SidebarLink to="/booking" icon="fas fa-users">Booking</SidebarLink>
+    <SidebarLink to="/register" icon="fas fa-user-plus">Register</SidebarLink>
+    <SidebarLink to="/login" icon="fas fa-sign-in-alt">Login</SidebarLink>
     <span
       class="collapse-icon"
       :class="{ 'rotate-180': collapsed }"
